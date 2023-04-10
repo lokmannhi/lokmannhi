@@ -1,4 +1,4 @@
-# <p align="center"> Hi there, I'm Lokmam <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> </p>
+# <p align="center"> Hi there, I'm Lokman <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> </p>
 
 ### :computer: Javascript / Typescript
 
