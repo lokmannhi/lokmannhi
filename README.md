@@ -10,6 +10,8 @@
 
 ### Mobile Developement 📱 React Native
 
+### 🤭 Others : NextJS / Postman / Visual Studio Code / Git / Android Studio / XCode / Google / Stackoverflow 🤭
+
 ### 🔥🔥🔥 Actively exploring Docker ⚡ / AWS ❄ / Linux 🌪
 
 <br>
