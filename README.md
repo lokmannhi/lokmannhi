@@ -1,18 +1,18 @@
-# <p align="center"> Hi there, I'm Lokman Hashim - aka Lokman 🇲🇾 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> </p>
+# <p align="center"> <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi there, I'm Lokman Hashim - aka Lokman 🇲🇾 </p>
 
 ### ⌨ Full Stack Javascript / Typescript Developer
 
-### Front End 🖥 ReactJS / VueJS
+### Front End 🖥 : ReactJS / VueJS
 
-### Back End 🖥 NodeJS / ExpressJS
+### Back End 🖥 : NodeJS / ExpressJS
 
-### Database 🗄 MySQL / MongoDB
+### Database 🗄 : MySQL / MongoDB
 
-### Mobile Developement 📱 React Native
+### Mobile 📱 : React Native
 
 ### 🤭 Others : NextJS / Postman / Visual Studio Code / Git / Android Studio / XCode / Google / Stackoverflow 🤭
 
-### 🔥🔥🔥 Actively exploring Docker ⚡ / AWS ❄ / Linux 🌪
+### 🔥 Actively exploring Docker ⚡ / AWS ❄ / Linux 🌪
 
 <br>
 <br>
