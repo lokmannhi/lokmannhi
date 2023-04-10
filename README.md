@@ -19,6 +19,11 @@
 
 [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/loxmannhi/)
 
+<br>
+<br>
+
+#### ⚫ ⚫ ⚫ ⚫ ⚪ - TypeScript, Javascript (React.js, Node.js, React Native)
+
 <!--
 **lokmannhi/lokmannhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
