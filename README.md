@@ -12,7 +12,7 @@
 
 ### 🤭 Others : NextJS / Postman / Visual Studio Code / Git / Android Studio / XCode / Google / Stackoverflow 🤭
 
-### 🔥 Actively exploring Docker ⚡ / AWS ❄ / Linux 🌪
+### 🔥 Actively exploring Docker ⚡ / AWS ❄ / Linux 🌪 / Google Cloud 💧
 
 <br>
 <br>
