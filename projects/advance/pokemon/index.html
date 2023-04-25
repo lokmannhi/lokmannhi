@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokemon</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>PokeDex</h1>
+    <div id="message"></div>
+    <form>
+      <label for="playerName">Enter your name:</label>
+      <input type="text" id="playerName" name="playerName" required />
+
+      <br />
+
+      <label for="selectedPokemon">Select your 6 pokemon:</label>
+      <div id="selectedPokemon" name="selectedPokemon"></div>
+
+      <br /><br />
+      <button type="submit">Submit</button
+      ><button type="button" id="resetButton">Reset</button>
+    </form>
+
+    <div id="poke_container" class="poke-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
