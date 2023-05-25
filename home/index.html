@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Home Page</title>
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/icons.ico" />
+
+    <script src="script.js"></script>
   </head>
   <body>
-    <button><a href="../index.html">home page</a></button>
-    <button><a href="../projects/index.html">project page</a></button>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#setup">Setup</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h1>Home Page</h1>
-    <script src="script.js"></script>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <p>Insert your information here.</p>
+      </section>
+
+      <section id="skills">
+        <h1>Skills</h1>
+        <p>Insert your skills here.</p>
+      </section>
+
+      <section id="setup">
+        <h1>Setup</h1>
+        <p>Insert your setup information here.</p>
+      </section>
+
+      <section id="projects">
+        <h1>Projects</h1>
+        <a href="../projects/index.html">Projects</a>
+        <p>Insert your projects here.</p>
+      </section>
+    </main>
   </body>
 </html>
