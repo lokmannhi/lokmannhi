@@ -73,7 +73,7 @@ p {
 /* Styling for the About section */
 #about .about-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 70vh;
   width: 70vw;
@@ -82,16 +82,21 @@ p {
 #about .about-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 25px;
   border: 2px solid black;
 }
 
 #about .about-details {
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
-#about .about-details h2 {
+#about .about-details h1 {
   font-size: 24px;
+  padding: 10px;
 }
 
 /* Styling for the Skills section */
@@ -105,14 +110,15 @@ p {
 
 #skills .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
 }
 
 #skills .skill-item {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  pointer-events: none;
 }
 
 /* Styling for the Setup section */
