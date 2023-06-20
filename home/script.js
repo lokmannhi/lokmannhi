@@ -67,6 +67,10 @@ function createTechStack() {
   }
 }
 
+function goToIndexPage() {
+  window.location.href = "../index.html";
+}
+
 window.onload = function () {
   createTechStack();
   assignRandomColors();
