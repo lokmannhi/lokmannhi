@@ -1,104 +1,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dosis:wght@300&display=swap");
 
-body {
-  background: rgb(235, 235, 235);
-  background: linear-gradient(
-    90deg,
-    rgba(235, 235, 235, 1) 0%,
-    rgba(245, 245, 245, 1) 50%,
-    rgba(235, 235, 235, 1) 100%
-  );
-  font-family: "Dosis", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  font-size: 35px;
-  border: 3px solid rgb(100, 100, 100);
-  padding: 10px;
-  border-radius: 5px;
-}
-
-h1 {
-  font-size: 100px;
-  font-family: "Bruno Ace SC", cursive;
+* {
+  padding: 0;
   margin: 0;
-  color: rgb(100, 100, 100);
 }
 
-h3 {
-  font-size: 35px;
+.minimalist {
+  background-color: #e6e0d8;
 }
 
-.container {
-  width: 80vw;
-  height: 80vh;
-  margin: 10vh auto;
-  background-color: white;
-  border-radius: 25px;
-}
-
-.info {
-  flex: 3;
+.minimalist .navbar {
+  background-color: none;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  height: 80%;
-  width: 80%;
+  height: 10vh;
+  margin: 0 50px;
 }
 
-.vl {
-  flex: 1;
-}
-
-.vl1 {
-  border-left: 5px solid rgb(235, 235, 235);
-  height: 80.1vh;
-  position: absolute;
-  left: 75%;
-  margin-left: -3px;
-  top: 10vh;
-}
-.vl2 {
-  border-left: 5px solid rgb(235, 235, 235);
-  height: 80.1vh;
-
-  position: absolute;
-  left: 80%;
-  margin-left: -3px;
-  top: 10vh;
-}
-.vl3 {
-  border-left: 5px solid rgb(235, 235, 235);
-  height: 80.1vh;
-
-  position: absolute;
-  left: 85%;
-  margin-left: -3px;
-  top: 10vh;
-}
-
-.content {
+.minimalist .navbar .logo {
   display: flex;
+  align-items: center;
+}
+
+.minimalist .navbar .logo img {
+  height: 30px;
+  border-radius: 40%;
+}
+
+.minimalist .navbar .nav-btn button {
+  border: none;
+  background: none;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.minimalist .navbar .nav-btn button:hover,
+.minimalist .navbar .logo img:hover {
+  cursor: pointer;
+}
+
+.minimalist .container {
+  height: 90vh;
+  overflow: hidden;
+}
+
+.minimalist .container .home-page {
+  margin-left: 50px;
+  position: absolute;
+  top: 60%;
+}
+
+.minimalist h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.minimalist .container .about-me {
+  align-items: center;
   justify-content: center;
-  align-items: center;
   height: 100%;
 }
 
-.name {
-  flex: 2;
+.minimalist .container .about-me .about-image {
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.more {
+.minimalist .container .about-me .about-image img {
+  border-radius: 25px;
+}
+
+.minimalist .container .about-me .about-details {
+  flex: 1;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  padding: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.reactjs {
+  color: #0d81a6;
+}
+
+.vuejs {
+  color: #50b0bf;
+}
+
+.nodejs {
+  color: #026e00;
+}
+
+.expressjs {
+  color: #7e7e7e;
+}
+
+.mysql {
+  color: #00758f;
+}
+
+.mongodb {
+  color: #116149;
+}
+
+.reactnative {
+  color: #61dafb;
 }

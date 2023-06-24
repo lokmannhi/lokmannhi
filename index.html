@@ -2,30 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/icons.ico" />
     <title>lokmannhi</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/icons.ico" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="navbar">
+      <div class="logo">
+        <img
+          id="home_page"
+          src="./assets/icons.jpeg"
+          alt="logo"
+          onclick="showMe('home_page')" />
+      </div>
+      <div class="nav-btn">
+        <button onclick="showMe('about_me')">About Me</button>
+        <button onclick="showMe('skills')">Skills</button>
+        <button onclick="showMe('projects')">Projects</button>
+      </div>
+    </div>
     <div class="container">
-      <div class="content">
-        <div class="info">
-          <div class="name">
-            <h1>Lokman</h1>
-            <h1>Muhammad</h1>
-          </div>
-          <div class="more">
-            <h3><u>Full Stack Developer</u></h3>
-            <a href="./home/index.html#about">Explore</a>
-          </div>
+      <div id="home" class="home-page">
+        <h1>Lokman</h1>
+        <h1>Software Engineer</h1>
+      </div>
+      <div id="about" class="about-me">
+        <div class="about-image">
+          <img
+            src="https://avatars.githubusercontent.com/u/77486461?s=400&u=962642165fd6adacb0fa2930d9e108e4db6065a0&v=4"
+            alt="About Image" />
         </div>
-        <div class="vl">
-          <div class="vl1"></div>
-          <div class="vl2"></div>
-          <div class="vl3"></div>
-        </div>
+        <div class="about-details">
+          <h1>Welcome!</h1>
+          <p>I'm Lokman Muhammad, <span id="age"></span>, a self-taught software developer with a passion for JavaScript and TypeScript. I have gained 3 years of valuable experience in the field. I have a solid understanding of front-end development using <span class="reactjs">ReactJS</span> and <span class="vuejs">VueJS</span>, also have some experience with backend development using <span class="nodejs">NodeJS</span> and <span class="expressjs">ExpressJS</span>, as well as experience working with databases such as <span class="mysql">MySQL</span> and <span class="mongodb">MongoDB</span>. Furthermore, I have basic knowledge for mobile development using <span class="reactnative">React Native</span>.</p>
+      </div>
+      <div id="skills">
+        <h1>skill</h1>
+      </div>
+      <div id="projects">
+        <h1>projects</h1>
       </div>
     </div>
     <script src="./script.js"></script>
