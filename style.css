@@ -112,3 +112,62 @@
 .reactnative {
   color: #61dafb;
 }
+
+.minimalist .container .about-me .about-image #slider {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.minimalist .container .about-me .about-image #slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+
+.minimalist .container .about-me .about-image #slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+
+.minimalist .container .about-me .about-image #slider ul li img {
+  width: 500px;
+  height: 100%;
+}
+
+.minimalist .container .about-me .about-image #slider #prev,
+.minimalist .container .about-me .about-image #slider #next {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+
+.minimalist .container .about-me .about-image #slider #prev:hover,
+.minimalist .container .about-me .about-image #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+
+.minimalist .container .about-me .about-image #slider #prev {
+  left: 10px;
+}
+.minimalist .container .about-me .about-image #slider #next {
+  right: 10px;
+}
