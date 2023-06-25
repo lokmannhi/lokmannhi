@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lokmannhi</title>
-    <script src="https://kit.fontawesome.com/955abb4bd0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/955abb4bd0.js"
+      crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/icons.ico" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="dont-show">
+      <p>Screen Size not available</p>
+    </div>
     <div class="navbar">
       <div class="logo">
         <img
@@ -32,11 +37,31 @@
         <div class="about-image">
           <div id="slider">
             <ul id="slideWrap">
-              <li><img src="https://1.bp.blogspot.com/-GgceYGYr2pk/YPCQp8loxqI/AAAAAAAACXU/Y795AFD-cN8PMV0V2__z2n1B3KFagE8qgCNcBGAsYHQ/s16000/1.jpg" alt=""></li>
-      <li><img src="https://1.bp.blogspot.com/-pl0VR_xS5Cw/YPCQp1scezI/AAAAAAAACXc/oB9xc6k8RuY5rPksMSy01f3iUn8zSIFzwCNcBGAsYHQ/s16000/2.jpg" alt=""></li>
-      <li><img src="https://1.bp.blogspot.com/-dt6CL2fiBq0/YPCQp0zmK6I/AAAAAAAACXY/0PevDL7pvx87mefb4oCnO613N1UitdicQCNcBGAsYHQ/s16000/3.jpg" alt=""></li>
-      <li><img src="https://1.bp.blogspot.com/-T_V-s57aVDo/YPCQrWayswI/AAAAAAAACXg/h1ifJGnBuXovvBdGDNvmhg-DXIVK4Xw9QCNcBGAsYHQ/s16000/4.jpg" alt=""></li>
-      <li><img src="https://1.bp.blogspot.com/-TNT1a5M1v3o/YPCQrWmn_fI/AAAAAAAACXk/p8nx_OB2R6Aw172WIv5vuB8jF-qWDsHlwCNcBGAsYHQ/s16000/5.jpg" alt=""></li>
+              <li>
+                <img
+                  src="https://1.bp.blogspot.com/-GgceYGYr2pk/YPCQp8loxqI/AAAAAAAACXU/Y795AFD-cN8PMV0V2__z2n1B3KFagE8qgCNcBGAsYHQ/s16000/1.jpg"
+                  alt="" />
+              </li>
+              <li>
+                <img
+                  src="https://1.bp.blogspot.com/-pl0VR_xS5Cw/YPCQp1scezI/AAAAAAAACXc/oB9xc6k8RuY5rPksMSy01f3iUn8zSIFzwCNcBGAsYHQ/s16000/2.jpg"
+                  alt="" />
+              </li>
+              <li>
+                <img
+                  src="https://1.bp.blogspot.com/-dt6CL2fiBq0/YPCQp0zmK6I/AAAAAAAACXY/0PevDL7pvx87mefb4oCnO613N1UitdicQCNcBGAsYHQ/s16000/3.jpg"
+                  alt="" />
+              </li>
+              <li>
+                <img
+                  src="https://1.bp.blogspot.com/-T_V-s57aVDo/YPCQrWayswI/AAAAAAAACXg/h1ifJGnBuXovvBdGDNvmhg-DXIVK4Xw9QCNcBGAsYHQ/s16000/4.jpg"
+                  alt="" />
+              </li>
+              <li>
+                <img
+                  src="https://1.bp.blogspot.com/-TNT1a5M1v3o/YPCQrWmn_fI/AAAAAAAACXk/p8nx_OB2R6Aw172WIv5vuB8jF-qWDsHlwCNcBGAsYHQ/s16000/5.jpg"
+                  alt="" />
+              </li>
             </ul>
             <a id="prev" href="#">&#8810;</a>
             <a id="next" href="#">&#8811;</a>
@@ -44,13 +69,27 @@
         </div>
         <div class="about-details">
           <h1>Welcome!</h1>
-          <p>I'm Lokman Muhammad, <span id="age"></span>, a self-taught software developer with a passion for JavaScript and TypeScript. I have gained 3 years of valuable experience in the field. I have a solid understanding of front-end development using <span class="reactjs">ReactJS</span> and <span class="vuejs">VueJS</span>, also have some experience with backend development using <span class="nodejs">NodeJS</span> and <span class="expressjs">ExpressJS</span>, as well as experience working with databases such as <span class="mysql">MySQL</span> and <span class="mongodb">MongoDB</span>. Furthermore, I have basic knowledge for mobile development using <span class="reactnative">React Native</span>.</p>
+          <p>
+            I'm Lokman Muhammad, <span id="age"></span>, a self-taught software
+            developer with a passion for JavaScript and TypeScript. I have
+            gained 3 years of valuable experience in the field. I have a solid
+            understanding of front-end development using
+            <span class="reactjs">ReactJS</span> and
+            <span class="vuejs">VueJS</span>, also have some experience with
+            backend development using <span class="nodejs">NodeJS</span> and
+            <span class="expressjs">ExpressJS</span>, as well as experience
+            working with databases such as <span class="mysql">MySQL</span> and
+            <span class="mongodb">MongoDB</span>. Furthermore, I have basic
+            knowledge for mobile development using
+            <span class="reactnative">React Native</span>.
+          </p>
+        </div>
       </div>
-      <div id="skills">
-        <h1>skill</h1>
+      <div id="skills" class="skills-grid">
+        <div id="skills-grid" class="grid-container"></div>
       </div>
       <div id="projects">
-        <h1>projects</h1>
+        <h1>project page</h1>
       </div>
     </div>
     <script src="./script.js"></script>

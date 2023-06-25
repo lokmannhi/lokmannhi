@@ -10,6 +10,10 @@
   background-color: #e6e0d8;
 }
 
+.minimalist .dont-show {
+  display: none;
+}
+
 .minimalist .navbar {
   background-color: none;
   display: flex;
@@ -43,7 +47,6 @@
 
 .minimalist .container {
   height: 90vh;
-  overflow: hidden;
 }
 
 .minimalist .container .home-page {
@@ -52,7 +55,7 @@
   top: 60%;
 }
 
-.minimalist h1 {
+.minimalist .home-page h1 {
   font-size: 50px;
   padding-bottom: 20px;
 }
@@ -68,10 +71,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.minimalist .container .about-me .about-image img {
-  border-radius: 25px;
 }
 
 .minimalist .container .about-me .about-details {
@@ -134,7 +133,6 @@
 .minimalist .container .about-me .about-image #slider ul li {
   position: relative;
   height: 100%;
-
   float: left;
 }
 
@@ -170,4 +168,125 @@
 }
 .minimalist .container .about-me .about-image #slider #next {
   right: 10px;
+}
+
+.minimalist .container .skills-grid {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.skill-item {
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1350px) {
+  .grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .minimalist .container .about-me .about-image #slider {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .minimalist .container .about-me .about-image #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+
+  .minimalist .container .about-me .about-image #slider ul li {
+    position: relative;
+    height: 100%;
+    float: left;
+  }
+
+  .minimalist .container .about-me .about-image #slider ul li img {
+    width: 300px;
+    height: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .minimalist .container .about-me .about-image {
+    display: none;
+  }
+
+  .minimalist .container .about-me .about-details {
+    margin: auto;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .minimalist .navbar .logo img {
+    height: 20px;
+    border-radius: 40%;
+  }
+
+  .minimalist .navbar .nav-btn button {
+    border: none;
+    background: none;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .minimalist .home-page h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  .minimalist .container .skills-grid {
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .minimalist > div:not(.dont-show) {
+    display: none;
+  }
+
+  .dont-show {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 }

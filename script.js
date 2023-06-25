@@ -28,7 +28,7 @@ function showMe(sectionName) {
       document
         .querySelectorAll("#home, #about, #projects")
         .forEach((el) => (el.style.display = "none"));
-      skills.style.display = "block";
+      skills.style.display = "flex";
       break;
     case "projects":
       document
@@ -96,10 +96,67 @@ var responsiveSlider = function () {
   }, 2000);
 };
 
-randomStyle();
-calculateAge();
-responsiveSlider();
+var techStack = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Git",
+  "Bootstrap",
+  "Tailwind CSS",
+  "Typescript",
+  "NPM",
+  "ReactJS",
+  "VueJS",
+  "Node.js",
+  "ExpressJS",
+  "Github",
+  "MySQL",
+  "MongoDB",
+  "NextJS",
+  "Firebase",
+  "yarn",
+  "React Native",
+  "NuxtJS",
+  "PostgreSQL",
+  "Styled-Component",
+  "Gitlab",
+  "Dart",
+  "Flutter",
+  "AWS",
+  "Docker",
+  "Google Cloud",
+];
+
+function createTechStack() {
+  var skillsGrid = document.getElementById("skills-grid");
+
+  for (var i = 0; i < techStack.length; i++) {
+    var skillItem = document.createElement("div");
+    skillItem.classList.add("skill-item");
+    skillItem.textContent = techStack[i];
+    skillsGrid.appendChild(skillItem);
+  }
+}
+
+var incomingTechStack = ["Dart", "Flutter", "AWS", "Docker", "Google Cloud"];
+
+function createIncomingTechStack() {
+  var incomingSkillsGrid = document.getElementById("incoming-skills-grid");
+
+  for (var j = 0; j < incomingTechStack.length; j++) {
+    var incomingSkillItem = document.createElement("div");
+    incomingSkillItem.classList.add("skill-item");
+    incomingSkillItem.textContent = incomingTechStack[j];
+    incomingSkillsGrid.appendChild(incomingSkillItem);
+  }
+}
 
 window.onload = function () {
   document.getElementById("home_page").click();
 };
+
+randomStyle();
+calculateAge();
+responsiveSlider();
+createTechStack();
+createIncomingTechStack();
